@@ -6,6 +6,6 @@ test('Should say hello', () => {
 })
 
 test('Should say bye', () => {
-    const result = index.sayHello("World");
+    const result = index.sayBye("World");
     expect(result).toEqual("Bye, World!");
 })
