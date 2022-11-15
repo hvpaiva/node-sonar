@@ -26,9 +26,12 @@ module.exports = {
     coverageDirectory: "./coverage",
 
     // An array of regexp pattern strings used to skip coverage collection
-    // coveragePathIgnorePatterns: [
-    //   "/node_modules/"
-    // ],
+    coveragePathIgnorePatterns: [
+        "/node_modules/",
+        "/tests/",
+        "/coverage/",
+        "/jest.config.js"
+    ],
 
     // Indicates which provider should be used to instrument code for coverage
     // coverageProvider: "babel",
