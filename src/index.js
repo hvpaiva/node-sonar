@@ -2,4 +2,8 @@ function sayHello(name) {
     return `Hello ${name}!`;
 }
 
-module.exports = {sayHello};
+function sayBye(name) {
+    return `Bye, ${name}!`;
+}
+
+module.exports = {sayHello, sayBye};
